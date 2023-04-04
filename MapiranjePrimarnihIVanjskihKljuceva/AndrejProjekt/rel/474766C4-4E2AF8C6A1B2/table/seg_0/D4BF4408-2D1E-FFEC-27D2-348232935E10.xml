@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4BF4408-2D1E-FFEC-27D2-348232935E10" name="NARUČENI_ARTIKL">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>7622F410-965F-EBE6-E242-CD2CAED02A1F</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<ordsAlias>naruceni_artikl</ordsAlias>
+<abbreviation>NAA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Količina" id="5152745C-248A-A096-0D6F-F2FDF48A346E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>61528ED9-A33E-4B7F-4B0B-D701243559D8</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,2,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NRD_ID_narudzba" id="F6C5B005-D582-415D-ED77-158700FD6371">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>6FC2B9BE-A63E-64D1-DBE9-316804B1190B</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44AEB8DD-5466-BB2E-EF39-437A7CBF490F" referredColumn="CF651B6A-8A07-3E6F-2DAB-D03A9C6707DF"/>
+</associations>
+</Column>
+<Column name="ART_ID_artikla" id="6224DA39-5B78-F739-62B9-921245118A19">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>DAA74101-90D6-589B-EF54-AD6293BEA8A6</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC45298D-C4E5-060D-A220-57EFBBB569BC" referredColumn="B65205D5-901A-2DDB-424D-A90C4E8C0732"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2381AF7D-3165-09A4-69C4-D794D4760A7F" name="NAA_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>2E06C26C-5C5C-8D6F-0CCC-754B893C7D24</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6C5B005-D582-415D-ED77-158700FD6371"/>
+<colUsage columnID="6224DA39-5B78-F739-62B9-921245118A19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD335685-0ED4-72AE-5401-BC19F3C99ADA" name="NAA_NRD_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>B7BDD145-BD9A-FEBE-0DDC-179AA2267738</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6C5B005-D582-415D-ED77-158700FD6371"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCF230B7-5126-58E5-DA79-209EEDE80F10" name="NAA_ART_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>80FE41E1-64A3-6867-9FD7-91AAE8B0E102</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6224DA39-5B78-F739-62B9-921245118A19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

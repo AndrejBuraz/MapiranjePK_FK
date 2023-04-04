@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3D5A8D9-5FD6-E9F5-4F4C-531718D30B40" name="INVIDUALNI_KUPAC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>BA939A28-3A65-FF77-8D6C-80A21B270641</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<ordsAlias>invidualni_kupac</ordsAlias>
+<abbreviation>INK</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KPC_ID_kupca" id="DE50A232-0933-9FF2-8A93-2F0A17D04EE7">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>2C57D3C3-E849-1524-0213-7126718F7D8B</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E52AE439-43F5-4B97-116B-57E5E8554AF8" referredColumn="197EFD97-B6FF-CFAF-B071-7B9EE286DCA6"/>
+</associations>
+</Column>
+<Column name="INK_broj_kartice_vrijednosti" id="E82BD277-1911-7C1A-D6AC-5BB02FEEAB80">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>097F8FC3-3E82-9782-2279-8FEC2B506B69</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INK_email" id="6114E8B3-B1A6-D91A-9814-A0DD492D1AA9">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>A707B923-16B0-E4CE-6DE6-EED30E88BEB6</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF80E2F7-B14C-1715-944D-69038C3B745A" name="INVIDUALNI_KUPAC_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>D7D6E313-AE4D-2234-708B-73B17496B03C</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE50A232-0933-9FF2-8A93-2F0A17D04EE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="397342EB-C7F7-940D-0151-CA30E6D24D0A" name="INVIDUALNI_KUPAC_KUPAC_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>806FCDCC-0987-7A3D-E8BC-0EC134E5D035</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE50A232-0933-9FF2-8A93-2F0A17D04EE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

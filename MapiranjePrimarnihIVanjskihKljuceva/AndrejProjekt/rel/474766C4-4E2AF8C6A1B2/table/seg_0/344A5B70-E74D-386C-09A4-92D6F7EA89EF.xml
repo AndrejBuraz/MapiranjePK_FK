@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="344A5B70-E74D-386C-09A4-92D6F7EA89EF" name="ADRESA_KUPCA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>3EC17C49-3CED-3E96-8B96-A8D35C6FD79C</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<ordsAlias>adresa_kupca</ordsAlias>
+<abbreviation>ADK</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_adrese_kupca" id="A22DE9F7-A22F-BC55-DC72-78856060C48D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>CAF47F20-8BA2-D8C5-E0B9-02901EBEA1AE</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ulica" id="E672E454-43A7-8C00-E77A-8B6A4DD60DC9">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>72EDADB2-33D8-5B74-965D-BA106F41695C</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kućni_broj" id="0DA3976F-4038-8993-B666-27410B7DAF4B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>0C6D33A4-FE2F-226B-189C-0541E33F2A91</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,2,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRD_Poštanski_broj" id="862E3081-F367-ECFF-45ED-48D1EE47B448">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>D7463FEA-6FD8-EBAC-89D1-CD0697B1A61C</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,0,4</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B7A3F5E-E7E8-916C-0A7C-86A05EB8E791" referredColumn="AD0C6C6D-71BB-9E41-986F-592FA4D8271C"/>
+</associations>
+</Column>
+<Column name="KPC_KPC_ID_kupca" id="28F45DDA-40FF-6FDA-20CB-F2B30FA3C614">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>FF9E5B76-FBCF-A462-9694-52861E50BFC2</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE10CACE-2A6A-22F7-6157-347DCD445928" referredColumn="197EFD97-B6FF-CFAF-B071-7B9EE286DCA6"/>
+</associations>
+</Column>
+<Column name="email1" id="44801A05-29AC-481B-D1C6-A069BE8EBD7D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>8BB9FB13-ABE3-C299-4C62-9D7E077C3674</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69C621B8-F21C-2F17-E7F6-FCE1A9964510" name="ADK_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>95AC3300-5F27-C98F-F183-D8C025776138</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A22DE9F7-A22F-BC55-DC72-78856060C48D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BA334B1-7742-2253-7A6E-F1CECC2A6B83" name="ADK_GRD_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>013E4078-B895-1392-717E-1C12FD1F8F57</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="862E3081-F367-ECFF-45ED-48D1EE47B448"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98A865AE-E34E-7F8C-BAE0-163ED40F62E0" name="ADK_KPC_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>1967198E-29DB-F3A9-1DF2-6EC71A487A46</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28F45DDA-40FF-6FDA-20CB-F2B30FA3C614"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

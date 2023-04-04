@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA2A3C67-F86A-C9D3-F35B-9D115137E3C1" name="PREDSTAVNIK_TIMA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>81B3E637-E0FA-7088-1573-A7DAA16BFBAB</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<ordsAlias>predstavnik_tima</ordsAlias>
+<abbreviation>PRT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KPC_ID_kupca" id="CDD71038-AF5E-71EC-D567-259C850E73FE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>2C57D3C3-E849-1524-0213-7126718F7D8B</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="822A3207-8845-222D-23A9-83825F8E4C36" referredColumn="197EFD97-B6FF-CFAF-B071-7B9EE286DCA6"/>
+</associations>
+</Column>
+<Column name="PRT_Tim" id="D88A6681-F2B9-FE59-5AE6-436B5F0A3CE0">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>4AA58067-29A3-7F0A-D471-32B9B51809A2</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TMV_ID_tima" id="D1AF6548-8B28-E33B-87CE-6FA545F4FD94">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>11B28150-60C8-D08F-9451-5C0B9E1CF30D</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF9D795D-C267-566F-EC4C-456A126F09FD" referredColumn="DDDF5A32-B3B6-1C7A-B3CE-365A4F8D32EA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="839EA9DA-F089-82E7-94F1-3BDEACCA724B" name="PREDSTAVNIK_TIMA_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>D7D6E313-AE4D-2234-708B-73B17496B03C</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDD71038-AF5E-71EC-D567-259C850E73FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B8E123C-480D-6B59-C19A-8D008FF7E042" name="PREDSTAVNIK_TIMA_IDX">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5FE650E2-9179-1735-018C-611E1CC3F65C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D1AF6548-8B28-E33B-87CE-6FA545F4FD94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="318A38FA-944E-3F6F-5BE9-1B571BD545FF" name="PREDSTAVNIK_TIMA_KUPAC_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>F4D69EB6-729B-467E-957E-F5660F2BC343</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDD71038-AF5E-71EC-D567-259C850E73FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26230B57-9F68-5D7D-B674-9C3327C553FB" name="PRT_TMV_FK">
+<createdBy>HP</createdBy>
+<createdTime>2023-04-04 17:23:56 UTC</createdTime>
+<generatorID>5FE650E2-9179-1735-018C-611E1CC3F65C</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1AF6548-8B28-E33B-87CE-6FA545F4FD94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

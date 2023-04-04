@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BE7EC10-BDD7-984E-C0F8-8D367A580BE6" name="GRAD">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>F6BFF459-4078-5016-DBB0-8BFADC40383D</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<ordsAlias>grad</ordsAlias>
+<abbreviation>GRD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Poštanski_broj" id="AD0C6C6D-71BB-9E41-986F-592FA4D8271C">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>F7CEE113-EBC8-3D34-D4FD-375DC5F75339</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,0,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60CCA6BF-9B6F-1AE1-8800-E2EB930797EA" name="GRD_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>1BEA1D62-B1BD-51FC-2CDA-19F5D5CB04B1</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD0C6C6D-71BB-9E41-986F-592FA4D8271C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

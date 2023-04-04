@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0DC74FC2-F398-A64C-0C8A-991E3F7AED8B" name="POVIJEST_CIJENA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>809BCFD1-19F3-1A7B-B906-52E613F29E85</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<ordsAlias>povijest_cijena</ordsAlias>
+<abbreviation>POC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Datum_promjene" id="A30C45AB-FE7D-E707-A7A3-9F2D74688289">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>CCB53AA9-769F-7B0D-5DD6-4A7DAD468DE7</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cijena" id="86A86B74-549D-562E-A2DE-E7A8A5B9AFEC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>C071F23D-BC89-DD5D-ED28-8E8108C86300</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_isteka" id="B3CBBE4D-22F1-34A6-55CE-836DBFEB65B0">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>20B73357-6B8B-1E44-7069-06B7EACCE517</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ART_ID_artikla" id="65720C9B-DE37-0165-850E-1D7D473A6695">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>787450B1-1878-1896-C635-C86832C6002F</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE3324ED-DD0A-B129-2B75-445A69881DA9" referredColumn="B65205D5-901A-2DDB-424D-A90C4E8C0732"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C98671E-2F4C-0792-5D4E-A78F174F50BD" name="POC_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>624E9FC0-056F-ADFF-46F7-563B4F3C7884</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65720C9B-DE37-0165-850E-1D7D473A6695"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2EE80F5-273F-462F-A3FB-53E928CF4015" name="POC_ART_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>1B4F344E-32A7-F4E9-B196-DEA56BEECDEA</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65720C9B-DE37-0165-850E-1D7D473A6695"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

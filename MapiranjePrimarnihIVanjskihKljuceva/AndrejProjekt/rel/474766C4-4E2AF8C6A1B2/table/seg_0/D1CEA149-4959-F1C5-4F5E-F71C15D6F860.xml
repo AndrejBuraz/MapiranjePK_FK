@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1CEA149-4959-F1C5-4F5E-F71C15D6F860" name="KUPAC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>CB80191E-5A1F-CEA8-744C-59D3D89ACF97</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<ordsAlias>kupac</ordsAlias>
+<abbreviation>KPC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KPC_ID_kupca" id="197EFD97-B6FF-CFAF-B071-7B9EE286DCA6">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>2C57D3C3-E849-1524-0213-7126718F7D8B</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KPC_email" id="ECBF8E40-F287-854D-2796-4AA189247655">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>BF0AB250-0C76-3752-F2F4-818090E2C1EF</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KPC_ime" id="982F6BA6-3026-E81C-142F-5C1E4947A131">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>8538C37A-0784-5FA4-E7B2-A0C5269F3CC0</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KPC_prezime" id="51FB6995-8985-25CF-349D-B2AA0650BB6A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>1D2F1357-50CF-8AD5-C162-2FDA0EE10900</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KPC_broj_telefona" id="D1C35F4A-DB4A-6365-8D90-C708BE25F247">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>7F200933-D54A-BFBC-FF90-3E3534DDDD46</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KPC_iznos_kupnje" id="ACD04B81-7042-4A45-BC8F-1702F2FD8924">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>59344982-D2F5-0337-AFCE-2641DA5E6D35</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,2,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PPC_email" id="08475C8F-D18A-3630-2D47-EDB587B87C66">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>2D0A4E35-E8C4-281B-82CB-B115029AD3E4</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0334D121-3231-DDC5-5001-25B70D91593E" referredColumn="B3B1AB91-10DA-FA3E-A6B8-3E30D9E46FBC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2CC16ABC-B6D5-C5A0-6C62-70C1310EC3AE" name="KPC_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>D7D6E313-AE4D-2234-708B-73B17496B03C</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="197EFD97-B6FF-CFAF-B071-7B9EE286DCA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E135ACD6-677E-0502-1466-F868000E0383" name="KUPCI_KPC_email_UN">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>79D8AD0E-56C3-8B66-B9D7-D612F65C0AE3</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECBF8E40-F287-854D-2796-4AA189247655"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F0857E8-1092-C179-AC77-A688D2A32901" name="KPC_PPC_FK">
+<createdBy>HP</createdBy>
+<createdTime>2023-04-04 17:23:56 UTC</createdTime>
+<generatorID>F034E1DC-22AA-16CC-A467-BC1B5176341B</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08475C8F-D18A-3630-2D47-EDB587B87C66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

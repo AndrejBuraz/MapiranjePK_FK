@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5DB0B5C-F0A3-7D3F-3A36-D4DBF6E4BC93" name="TIM">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>A4C197A7-8411-EBDE-536C-36677635662D</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<ordsAlias>tim</ordsAlias>
+<abbreviation>TMV</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_tima" id="DDDF5A32-B3B6-1C7A-B3CE-365A4F8D32EA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>DBD42386-853A-542D-5D2A-29F88F081775</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime_tima" id="E2EC7ECB-3EA5-535D-DBE7-940CF60CFB97">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>4E89F010-2CEE-8824-358A-3C363CBB53BD</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_igraca" id="454ABFB4-E2BE-A863-134A-6AA060C5B05D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>5B7E9204-3FC0-F82C-7907-5C27FB612458</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Popust" id="4ACFB719-E7D6-832D-F0DF-9755735EF329">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>8322F3B4-0488-C6E2-DEE2-3AF35F9A96D7</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,2,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRT_KPC_ID_kupca" id="FB4BF6F6-4366-BA06-6AFD-D7B7F300A5E6">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>C1C7485A-2C55-4BFF-E639-71113A0DE9C6</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8D66848-3705-57AA-9704-BC4B256ADE66" referredColumn="CDD71038-AF5E-71EC-D567-259C850E73FE"/>
+</associations>
+</Column>
+<Column name="email1" id="4946B2EF-39D7-B5ED-C2FC-978965143DA9">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>3FF538F6-8D5E-4D8C-8830-D8D2F7EA119F</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="218ED0D7-F643-367D-2A38-B0CAC1ABC1DE" name="TMV_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>61B57128-AD9B-C725-CE23-D731E7E05AE3</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDDF5A32-B3B6-1C7A-B3CE-365A4F8D32EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8494D787-202C-E3A6-D1F7-67A44AE44CC4" name="TIM_UN">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:30:21 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDDF5A32-B3B6-1C7A-B3CE-365A4F8D32EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="841E8B86-9567-660F-D4D5-0BBA102BED29" name="TIM_IDX">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5FE650E2-9179-1735-018C-611E1CC3F65C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FB4BF6F6-4366-BA06-6AFD-D7B7F300A5E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BC9FD2E-D0FB-241E-3738-BC25BEA6C539" name="TIM_PREDSTAVNIK_TIMA_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:04:14 UTC</createdTime>
+<generatorID>5FE650E2-9179-1735-018C-611E1CC3F65C</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB4BF6F6-4366-BA06-6AFD-D7B7F300A5E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
